@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+
+<div class="main">
+    <div class="container">
+            <div class="block-1">
+            <h1 id="tempHero"></h1>
+                <div class="block-1-filtre">
+
+                </div>
+            </div>
+        <div class="block-2">
+                <div class="info-locate">
+                    <div>
+                        <h1 class="title">NUAGE</h1>
+                        <h1 id = "precipitation" class="sub">0</h1>
+                    </div>
+                    <div>
+                        <h1 class="title">HUMIDITÉ</h1>
+                        <h1 id="humiditer" class="sub">0</h1>
+                    </div>
+
+                    <div>
+                        <h1 class="title">VENT</h1>
+                        <h1 id="vent" class="sub">0</h1>
+                    </div>
+                </div>
+            <div class="day-locate">
+                <div class="day1">
+                    <h1 class="title2-active">Lundi</h1>
+                    <h1 id = "temp1" class="title2-active"></h1>
+                </div>
+                <div class="day2">
+                    <h1 class="title2">Mardi</h1>
+                    <h1 id="temp2" class="title2"></h1>
+                </div>
+                <div class="day3">
+                    <h1 class="title2">Mer</h1>
+                    <h1 id ="temp3" class="title2"></h1>
+                </div>
+                <div class="day4">
+                    <h1 class="title2">Jeudi</h1>
+                    <h1 id="temp4" class="title2"></h1>
+                </div>
+            </div>
+            <div class="button-locate">
+                <a id="btnLO" class="btnLocate"><p>Changer la localisation</p></a>
+                <input class = "input" type="text" id="locatE" name="name" required
+                minlength="4" maxlength="20" size="10">
+            </div>
+            </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
+
